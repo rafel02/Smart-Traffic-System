@@ -1,0 +1,26 @@
+{
+  "display_infrastructure": {
+    "leddar_range": 12,
+    "grid_angle_slot": 10,
+    "device_size": 5,
+    "arrow_len": 50
+  },
+  "leddar_fix_parameters": {
+    "BEAMWIDTH": 45,
+    "LIDR_RANG": 15
+  },
+  "leddar_tunnig_parameters": {
+    "HUMAN_SECTORDIFF": 0.6,	//detection distance variation for same humman in different sector
+    "CAR_SECTORDIFF": 1.5,	//detection distance variation forsame car in different sector
+    "HUMAN_SCANDDIFF": 0.5,	//distance cover by humman in consecutive scan
+    "CAR_SCANDIFF": 1,		//distance cover by car in consecutive scan
+    "MIN_SECT_VAR": 1,
+    "FIX_OBJ_UPDATE_INTERVAL": 10,
+    "FIX_OBJ_DIS_VAR": 0.2,
+    "FIX_OBJ_AMP_VAR": 4
+  },
+  "leddar_test_parameters": {
+    "localvisualizationenable": 0,
+    "predictionenable": 1
+  }
+}

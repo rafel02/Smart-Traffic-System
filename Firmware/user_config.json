@@ -1,0 +1,12 @@
+{
+  "display": [
+    {
+      "device_id": "leddar_01",
+      "angleofrotation": 0
+    },
+    {
+      "device_id": "leddar_02",
+      "angleofrotation": 90
+    }
+  ]
+}
